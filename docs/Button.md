@@ -51,3 +51,23 @@ import { Link } from 'react-router-dom';
   <Button>按钮</Button>
 </Link>;
 ```
+
+## text
+
+Fusion Design 的 `<Button text>` 是无边距的文字按钮（文本色或链接色）。Ant Design 的 `Button` 没有 `text` 属性。而 `<Button type="link">` 或 `<Button type="text">` 是有边距的，视觉效果上并不等价。建议用 `<Typography.Link>` 替代。
+
+```jsx
+// Fusion Design
+import { Button } from '@alifd/next';
+
+<Button text type="primary">
+  操作
+</Button>;
+```
+
+```jsx
+// Ant Design
+import { Typography } from 'antd';
+
+<Typography.Link>操作</Typography.Link>;
+```
