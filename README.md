@@ -6,3 +6,4 @@
 - [Button](./docs/Button.md)
 - [Card](./docs/Card.md)
 - [Message](./docs/Message.md)
+- [Table](./docs/Table.md)
