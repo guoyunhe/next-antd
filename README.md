@@ -8,3 +8,4 @@
 - [Message](./docs/Message.md)
 - [Table](./docs/Table.md)
 - [Tag](./docs/Tag.md)
+- [Timeline](./docs/Timeline.md)
