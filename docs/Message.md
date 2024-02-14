@@ -55,7 +55,7 @@ import { Message } from '@alifd/next';
 // Ant Design
 import { Alert } from 'antd';
 
-<Alert type="info">这是一条消息</Alert>;
+<Alert type="info" showIcon message="这是一条消息" />;
 ```
 
 ## type="help"
@@ -66,7 +66,7 @@ Ant Design 的 `Alert` 没有 `type="help"`，但是有 `type="info"`，语义�
 // Fusion Design
 import { Message } from '@alifd/next';
 
-<Message type="notice">这是一条消息</Message>;
+<Message type="help">这是一条消息</Message>;
 ```
 
 ```jsx
@@ -74,7 +74,5 @@ import { Message } from '@alifd/next';
 import { Alert } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
-<Alert type="info" icon={<QuestionCircleOutlined />}>
-  这是一条消息
-</Alert>;
+<Alert type="info" showIcon icon={<QuestionCircleOutlined />} message="这是一条消息" />;
 ```
