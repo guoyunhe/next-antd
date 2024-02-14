@@ -586,22 +586,20 @@ import { Message } from '@alifd/next';
 `,W.jsx(t.pre,{imports:{Alert:hp},children:W.jsx(t.code,{className:"language-jsx",children:`// Ant Design
 import { Alert } from 'antd';
 
-<Alert type="info">这是一条消息</Alert>;
+<Alert type="info" showIcon message="这是一条消息" />;
 `})}),`
 `,W.jsx(t.h2,{children:'type="help"'}),`
 `,W.jsxs(t.p,{children:["Ant Design 的 ",W.jsx(t.code,{children:"Alert"})," 没有 ",W.jsx(t.code,{children:'type="help"'}),"，但是有 ",W.jsx(t.code,{children:'type="info"'}),"，语义和外观上相似，图标需要替换。"]}),`
 `,W.jsx(t.pre,{imports:{Message:Vp},children:W.jsx(t.code,{className:"language-jsx",children:`// Fusion Design
 import { Message } from '@alifd/next';
 
-<Message type="notice">这是一条消息</Message>;
+<Message type="help">这是一条消息</Message>;
 `})}),`
 `,W.jsx(t.pre,{imports:{Alert:hp,QuestionCircleOutlined:kQ},children:W.jsx(t.code,{className:"language-jsx",children:`// Ant Design
 import { Alert } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
-<Alert type="info" icon={<QuestionCircleOutlined />}>
-  这是一条消息
-</Alert>;
+<Alert type="info" showIcon icon={<QuestionCircleOutlined />} message="这是一条消息" />;
 `})})]})}function xA(e={}){const{wrapper:t}={...ir(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(mE,{...e})}):mE(e)}xA.displayName="MDXContent";const iae=Object.freeze(Object.defineProperty({__proto__:null,default:xA,filepath:oae,frontmatter:lae,title:aae},Symbol.toStringTag,{value:"Module"})),fae="docs/Table.md",cae="Table",uae=void 0;function hE(e){const t={h1:"h1",h2:"h2",p:"p",...ir(),...e.components};return W.jsxs(W.Fragment,{children:[W.jsx(t.h1,{children:"Table"}),`
 `,W.jsx(t.h2,{children:"Column cell"}),`
 `,W.jsx(t.p,{children:"to render 参数顺序也不一样"})]})}function PA(e={}){const{wrapper:t}={...ir(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(hE,{...e})}):hE(e)}PA.displayName="MDXContent";const sae=Object.freeze(Object.defineProperty({__proto__:null,default:PA,filepath:fae,frontmatter:uae,title:cae},Symbol.toStringTag,{value:"Module"}));function pae(){return W.jsx(Pz,{docs:[Iz,$z,Xoe,Joe,rae,iae,sae],basename:"/next-antd/",languages:void 0})}NC(document.getElementById("root")).render(W.jsx(pae,{}));
