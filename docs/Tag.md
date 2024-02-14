@@ -73,3 +73,7 @@ import { Tag } from 'antd';
 
 <Tag color="#ff9300">标签</Tag>;
 ```
+
+## size
+
+Ant Design 的标签不支持 size，只能自定义类实现。
