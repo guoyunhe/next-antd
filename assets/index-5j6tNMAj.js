@@ -600,9 +600,23 @@ import { Alert } from 'antd';
 import { QuestionCircleOutlined } from '@ant-design/icons';
 
 <Alert type="info" showIcon icon={<QuestionCircleOutlined />} message="这是一条消息" />;
-`})})]})}function xA(e={}){const{wrapper:t}={...ir(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(mE,{...e})}):mE(e)}xA.displayName="MDXContent";const iae=Object.freeze(Object.defineProperty({__proto__:null,default:xA,filepath:oae,frontmatter:lae,title:aae},Symbol.toStringTag,{value:"Module"})),fae="docs/Table.md",cae="Table",uae=void 0;function hE(e){const t={h1:"h1",h2:"h2",p:"p",...ir(),...e.components};return W.jsxs(W.Fragment,{children:[W.jsx(t.h1,{children:"Table"}),`
+`})})]})}function xA(e={}){const{wrapper:t}={...ir(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(mE,{...e})}):mE(e)}xA.displayName="MDXContent";const iae=Object.freeze(Object.defineProperty({__proto__:null,default:xA,filepath:oae,frontmatter:lae,title:aae},Symbol.toStringTag,{value:"Module"})),fae="docs/Table.md",cae="Table",uae=void 0;function hE(e){const t={code:"code",h1:"h1",h2:"h2",p:"p",pre:"pre",...ir(),...e.components};return W.jsxs(W.Fragment,{children:[W.jsx(t.h1,{children:"Table"}),`
 `,W.jsx(t.h2,{children:"Column cell"}),`
-`,W.jsx(t.p,{children:"to render 参数顺序也不一样"})]})}function PA(e={}){const{wrapper:t}={...ir(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(hE,{...e})}):hE(e)}PA.displayName="MDXContent";const sae=Object.freeze(Object.defineProperty({__proto__:null,default:PA,filepath:fae,frontmatter:uae,title:cae},Symbol.toStringTag,{value:"Module"}));function pae(){return W.jsx(Pz,{docs:[Iz,$z,Xoe,Joe,rae,iae,sae],basename:"/next-antd/",languages:void 0})}NC(document.getElementById("root")).render(W.jsx(pae,{}));
+`,W.jsx(t.p,{children:"Fusion Design 自定义渲染的方法叫 cell，而 Ant Design 的自定义渲染的方法叫 render。虽然都是三个参数，但是参数的顺序也不一样。"}),`
+`,W.jsx(t.pre,{static:!0,children:W.jsx(t.code,{className:"language-jsx",children:`// Fusion Design
+import { Table } from '@alifd/next';
+
+<Table>
+  <Table.Column cell={(value, index, record) => record.id + record.name} />
+</Table>;
+`})}),`
+`,W.jsx(t.pre,{static:!0,children:W.jsx(t.code,{className:"language-jsx",children:`// Ant Design
+import { Table } from '@alifd/next';
+
+<Table>
+  <Table.Column render={(value, record, index) => record.id + record.name} />
+</Table>;
+`})})]})}function PA(e={}){const{wrapper:t}={...ir(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(hE,{...e})}):hE(e)}PA.displayName="MDXContent";const sae=Object.freeze(Object.defineProperty({__proto__:null,default:PA,filepath:fae,frontmatter:uae,title:cae},Symbol.toStringTag,{value:"Module"}));function pae(){return W.jsx(Pz,{docs:[Iz,$z,Xoe,Joe,rae,iae,sae],basename:"/next-antd/",languages:void 0})}NC(document.getElementById("root")).render(W.jsx(pae,{}));
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
     __vite__mapDeps.viteFileDeps = []
