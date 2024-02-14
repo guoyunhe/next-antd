@@ -1,6 +1,2 @@
----
-order: 999
----
-
 import '@alifd/next/dist/next.min.css';
-import '../src';
+import '.';
