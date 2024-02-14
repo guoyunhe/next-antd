@@ -23,8 +23,8 @@ import { Button } from 'antd';
 ```css
 /* Ant Design 自定义样式 */
 .ant-btn.ant-btn-secondary {
-  border-color: #66ccff;
-  color: #66ccff;
+  color: #1677ff;
+  border-color: #1677ff;
 }
 ```
 
@@ -47,7 +47,7 @@ import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import { Link } from 'react-router-dom';
 
-<Link to="/hoo">
+<Link to="/">
   <Button>按钮</Button>
 </Link>;
 ```

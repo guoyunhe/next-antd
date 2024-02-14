@@ -54,6 +54,7 @@
     "extends": "stylelint-config-rive"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.0",
     "classnames": "^2.5.1"
   },
   "devDependencies": {
