@@ -233,7 +233,7 @@ ${n.map(({variableName:r,uniqueLocalName:o})=>`  reactHotLoader.register(${r}, "
 `,W.jsx(t.li,{children:"Updated something..."}),`
 `,W.jsx(t.li,{children:"Improved something..."}),`
 `,W.jsx(t.li,{children:"Deprecated something..."}),`
-`]})]})}function TT(e={}){const{wrapper:t}={...Qn(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(Hx,{...e})}):Hx(e)}TT.displayName="MDXContent";const kz=Object.freeze(Object.defineProperty({__proto__:null,default:TT,filepath:Ez,frontmatter:Cz,title:Iz},Symbol.toStringTag,{value:"Module"})),Tz="README.md",$z="Fusion Design ➡️ Ant Design 5 迁移指南",Nz=void 0;function Vx(e){const t={a:"a",h1:"h1",li:"li",p:"p",ul:"ul",...Qn(),...e.components};return W.jsxs(W.Fragment,{children:[W.jsx(t.h1,{children:"Fusion Design ➡️ Ant Design 5 迁移指南"}),`
+`]})]})}function TT(e={}){const{wrapper:t}={...Qn(),...e.components};return t?W.jsx(t,{...e,children:W.jsx(Hx,{...e})}):Hx(e)}TT.displayName="MDXContent";const kz=Object.freeze(Object.defineProperty({__proto__:null,default:TT,filepath:Ez,frontmatter:Cz,title:Iz},Symbol.toStringTag,{value:"Module"})),Tz="README.md",$z="Fusion Design ➡️ Ant Design 迁移指南",Nz=void 0;function Vx(e){const t={a:"a",h1:"h1",li:"li",p:"p",ul:"ul",...Qn(),...e.components};return W.jsxs(W.Fragment,{children:[W.jsx(t.h1,{children:"Fusion Design ➡️ Ant Design 迁移指南"}),`
 `,W.jsx(t.p,{children:"不谈 Why，只谈 How。"}),`
 `,W.jsxs(t.ul,{children:[`
 `,W.jsx(t.li,{children:W.jsx(t.a,{href:"./docs/Balloon.md",children:"Balloon"})}),`
