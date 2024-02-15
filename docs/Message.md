@@ -76,3 +76,34 @@ import { QuestionCircleOutlined } from '@ant-design/icons';
 
 <Alert type="info" showIcon icon={<QuestionCircleOutlined />} message="这是一条消息" />;
 ```
+
+## type="loading"
+
+```jsx
+// Fusion Design
+import { Message } from '@alifd/next';
+
+<Message type="loading">这是一条消息</Message>;
+```
+
+Ant Design 的 `Alert` 没有 `type="loading"`，需要自己进行组装。但是这个用法其实非常少见，大部分情况下都是错误的用法。
+
+```jsx
+// Ant Design
+import { Alert } from 'antd';
+import { LoadingOutlined } from '@ant-design/icons';
+
+<Alert showIcon icon={<LoadingOutlined />} message="这是一条消息" />;
+```
+
+## size
+
+Ant Design 的 `Alert` 不支持 `size` 属性，只能通过自定义类名实现。
+
+## shape="addon"
+
+Ant Design 的 `Alert` 不支持 `shape="addon"` 这种无边框无填充的版本，只能通过自定义类名实现。
+
+## shape="toast"
+
+Ant Design 的 `Alert` 不支持 `shape="addon"` 这种类似卡片的版本。开发者可以通过自定义类名实现，也可以结合 Card 等组件组装。
