@@ -1,7 +1,7 @@
 {
   "name": "next-antd",
   "version": "0.0.1",
-  "description": "Ant Design 的 Fusion Design 兼容层，用于迁移 Fusion Design 1.x 项目到 Ant Design 5.x",
+  "description": "Fusion Design ➡️ Ant Design 迁移指南",
   "keywords": [
     "react",
     "next",
@@ -85,6 +85,7 @@
   "rive": {
     "template": "react",
     "doc": {
+      "title": "Fusion Design ➡️ Ant Design 迁移指南",
       "basename": "/next-antd/"
     }
   }
